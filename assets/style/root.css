@@ -1,0 +1,221 @@
+/*=========================================== ROOT-DEFINE-VALUES ================================================= */
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-off-white: #f7f7f9;
+  --color-orange: #ed5a31;
+  --color-dark-orange: #f05906;
+  --color-light-orange: #FF5A00;
+  --color-night-rider: #2c2c2c;
+  --color-light-gray: #D5D5D5;
+  --color-manatee: #86868b;
+  --color-nobel: #9c9c9c;
+  --color-pink-Swan: #b3b1b1;
+  --color-charcoal: #444;
+  --color-blue-charcoal: #192532;
+  --color-eclipse: #404040;
+  --color-Nero: #1d1d1d;
+  --color-dark-black: #101010;
+  --color-light-black: #2c2c2c;
+  --color-extra-light-black: #2D2D2D;
+  --font-xs: 14px;
+  --font-sm: 15px;
+  --font-base: 17px;
+  --font-md: 20px;
+  --font-lg: 22px;
+  --font-xl: 24px;
+  --font-2xl: 27px;
+  --font-3xl: 30px;
+  --font-4xl: 37px;
+  --font-5xl: 47px;
+  --font-6xl: 57px;
+}
+
+/*================================================= DEFINE-ALL = COLOR-VALUE =========================================== */
+.text_white {
+  color: var(--color-white) !important;
+}
+
+.text_light_orange {
+  color: var(--color-light-orange) !important;
+}
+
+.text_off_white {
+  color: var(--color-off-white) !important;
+}
+
+.text_orange {
+  color: var(--color-orange) !important;
+}
+
+.text_gray {
+  color: var(--color-light-gray) !important;
+}
+
+.text_manatee {
+  color: var(--color-manatee) !important;
+}
+
+.text_nobel {
+  color: var(--color-nobel) !important;
+}
+
+.text_pinkswan {
+  color: var(--color-pink-Swan) !important;
+}
+
+.text_dark_orange {
+  color: var(--color-dark-orange) !important;
+}
+
+.text_manatee {
+  color: var(--color-manatee) !important;
+}
+
+.text_charcoal {
+  color: var(--color-charcoal);
+}
+
+.bg_off_white {
+  background-color: var(--color-off-white);
+}
+
+.bg_Nero {
+  background-color: var(--color-Nero);
+}
+
+.bg_night_rider {
+  background-color: var(--color-night-rider);
+}
+
+.bg_dark_black {
+  background-color: var(--color-dark-black);
+}
+
+.bg_light_black {
+  background-color: var(--color-light-black);
+}
+
+.bg_dark_orange {
+  background: var(--color-dark-orange);
+}
+
+.bg_orange {
+  background: var(--color-orange);
+}
+
+.bg_black {
+  background-color: var(--color-black);
+}
+
+.bg_charcoal {
+  background: var(--color-charcoal);
+}
+
+.bg_light_black {
+  background: var(--color-light-black);
+}
+
+.bg_extra_light_black {
+  background: var(--color-extra-light-black);
+}
+
+/*=========================================== DEFINE-ALL = FONT-SIZES ========================================== */
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+
+.font-sm {
+  font-size: var(--font-sm) !important;
+}
+
+.font-base {
+  font-size: var(--font-base) !important;
+}
+
+.font-md {
+  font-size: var(--font-md) !important;
+}
+
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.font-xl {
+  font-size: var(--font-xl) !important;
+}
+
+.font-2xl {
+  font-size: var(--font-2xl) !important;
+}
+
+.font-3xl {
+  font-size: var(--font-3xl) !important;
+}
+
+.font-4xl {
+  font-size: var(--font-4xl) !important;
+}
+
+.font-5xl {
+  font-size: var(--font-5xl) !important;
+}
+
+.font-6xl {
+  font-size: var(--font-6xl) !important;
+}
+
+/*============================================================ DEFINE-ALL = @media----FONT SIZE-SET  ======================================*/
+
+@media (max-width:1299.98px) {
+  :root {
+    --font-5xl: 44px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  :root {
+    --font-5xl: 38px;
+    --font-6xl: 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-2xl: 24px;
+    --font-3xl: 28px;
+    --font-4xl: 32px;
+    --font-5xl: 36px;
+    --font-6xl: 42px;
+    --font-base: 16px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --font-xs: 14px;
+    --font-sm: 15px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 22px;
+    --font-2xl: 22px;
+    --font-3xl: 24px;
+    --font-4xl: 26px;
+    --font-5xl: 36px;
+    --font-6xl: 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-base: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 20px;
+    --font-2xl: 20px;
+    --font-5xl: 28px;
+    --font-6xl: 30px;
+  }
+}
